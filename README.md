@@ -261,23 +261,16 @@ If we want both Javascript and performance in a true headless browser, we need t
 - Low-level system programming language (Zig) with optimisations in mind
 - Opinionated: without graphical rendering
 
-## Status
+## Fork Goals
 
 Lightpanda is still a work in progress and is currently at a Beta stage.
-
 :warning: You should expect most websites to fail or crash.
 
-Here are the key features we have implemented:
+- [x] Resoure Management
+  - [x] Parallel Computing 
+  - [x] Memory Allocation 
+- [x] Agentic Intergration Support  
 
-- [x] HTTP loader
-- [x] HTML parser and DOM tree (based on Netsurf libs)
-- [x] Javascript support (v8)
-- [x] Basic DOM APIs
-- [x] Ajax
-  - [x] XHR API
-  - [x] Fetch API
-- [x] DOM dump
-- [x] Basic CDP/websockets server
 
 NOTE: There are hundreds of Web APIs. Developing a browser (even just for headless mode) is a huge task. Coverage will increase over time.
 
